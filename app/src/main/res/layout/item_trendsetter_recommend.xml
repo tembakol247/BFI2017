@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+   <RelativeLayout
+       android:background="@android:color/white"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:orientation="horizontal"
+       android:paddingLeft="10dp">
+       <TextView
+           android:id="@+id/tv_nama"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="Tembakol"
+           android:textColor="@color/black"
+           android:textStyle="normal"/>
+       <TextView
+           android:id="@+id/tv_hashtag"
+           android:layout_toRightOf="@+id/tv_nama"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="#jokowidodo"
+           android:layout_marginLeft="5dp"
+           android:textColor="@android:color/holo_blue_dark"/>
+       <TextView
+           android:visibility="gone"
+           android:id="@+id/tv_waktu"
+           android:layout_alignParentRight="true"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="2h"
+           android:layout_marginLeft="5dp"/>
+   </RelativeLayout>
+</LinearLayout>

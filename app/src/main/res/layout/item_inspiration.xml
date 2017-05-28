@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+        <LinearLayout
+            android:id="@+id/ll_item_inspiration"
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@color/white">
+            <LinearLayout
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingLeft="10dp">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="inspired by :"
+                    android:textColor="@color/black"
+                    android:textStyle="normal"
+                    android:textSize="11sp"/>
+                <TextView
+                    android:id="@+id/tv_namainspired"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:text="Pak Joko Widodo"
+                    android:textColor="@color/colorPrimary"
+                    android:textStyle="bold"
+                    android:textSize="13sp"/>
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_marginRight="5dp"
+                        android:text="2 h"
+                        android:textStyle="normal"
+                        android:textSize="11sp"/>
+                </RelativeLayout>
+            </LinearLayout>
+            <ImageView
+                android:layout_marginTop="10dp"
+                android:id="@+id/iv_gambar"
+                android:layout_width="match_parent"
+                android:layout_height="350dp"
+                android:src="@drawable/inspired1"
+                android:scaleType="centerCrop"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="5dp"
+                android:orientation="horizontal"
+                android:paddingLeft="5dp">
+
+                <ImageView
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:src="@drawable/ic_web" />
+
+                <TextView
+                    android:id="@+id/tv_sumber"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginBottom="0dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="5dp"
+                    android:text="instashaushuhsashgram.com\\okeoce"
+                    android:textSize="11sp"
+                    android:textStyle="normal"
+                    android:maxLength="20"/>
+
+                    <ImageView
+                        android:layout_marginLeft="70dp"
+                        android:id="@+id/iv_profile"
+                        android:layout_width="20dp"
+                        android:layout_height="20dp"
+                        android:src="@drawable/ic_profession" />
+
+                    <TextView
+                        android:layout_marginRight="0dp"
+                        android:layout_toRightOf="@+id/iv_profile"
+                        android:id="@+id/tv_profesi"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="0dp"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="5dp"
+                        android:text="pejabat publik"
+                        android:textSize="11sp"
+                        android:textStyle="normal" />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="3dp">
+                <TextView
+                    android:id="@+id/tv_deskripsi"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="0dp"
+                    android:maxLines="6"
+                    android:text="Sekali Lagi! , Pak jokowi hari ini benar - benar menjadi perhatian masyarakat, bagi kamu yang akan berangkat kerja/berpetualang dengan menggunakan motor, penampilan pak jokowi kali ini benar-benar akan menginspirasimu"
+                    android:textColor="@android:color/black"
+                    android:textSize="12sp"
+                    android:textStyle="normal"
+                    android:letterSpacing="0.5"
+                    android:layout_marginBottom="0dp"/>
+            </LinearLayout>
+        </LinearLayout>
+</LinearLayout>

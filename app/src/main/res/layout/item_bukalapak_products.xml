@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <android.support.v7.widget.CardView
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@android:color/white">
+        <ImageView
+            android:id="@+id/iv_gambar"
+            android:layout_width="match_parent"
+            android:layout_height="160dp"
+            android:src="@drawable/produk1"
+            android:scaleType="fitXY"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp">
+        <TextView
+            android:id="@+id/tv_namaproduk"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:maxLines="2"
+            android:text="Hijab Pashmina Instan Lipit Kerudung Hijab Instan"
+            android:textColor="@android:color/black"
+            android:textSize="13sp"
+            android:textStyle="normal"/>
+        <TextView
+            android:id="@+id/tv_namalapak"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textMultiLine"
+            android:maxLines="1"
+            android:text="oleh bukalapak"
+            android:textSize="9sp"
+            android:textStyle="normal"/>
+        <TextView
+            android:id="@+id/tv_feedback"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:maxLines="1"
+            android:text="100% (100 feedback)"
+            android:textSize="9sp"
+            android:textStyle="normal"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:visibility="gone"
+                android:id="@+id/tv_hargaasli"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:id="@+id/tv_hargadiskon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Rp10Rb"
+                android:textColor="@android:color/holo_red_dark"
+                android:textSize="13sp"
+                android:textStyle="bold"/>
+        </LinearLayout>
+        <Button
+            android:id="@+id/bt_beli"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="10dp"
+            android:paddingTop="0dp"
+            android:paddingBottom="0dp"
+            android:background="@android:color/holo_green_dark"
+            android:text="@string/beli"
+            android:textColor="@android:color/white"
+            android:textSize="13sp" />
+        </LinearLayout>
+    </LinearLayout>
+    </android.support.v7.widget.CardView>
+</LinearLayout>
